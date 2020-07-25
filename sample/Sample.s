@@ -3,5 +3,5 @@ let _ = require( 'wimagewritersvg' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 

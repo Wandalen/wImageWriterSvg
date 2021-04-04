@@ -1470,6 +1470,4 @@ module:
       ../.im.will.yml:
         hash: 5d902338f628cd74a429f5bd4fddee12
         size: 4740
-      wImageWriterSvg.out.will.yml:
-        hash: e5944b2de5ff4321740c155ec90d427e
-        size: 37369
+      wImageWriterSvg.out.will.yml: *ref_0

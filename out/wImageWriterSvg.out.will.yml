@@ -6,8 +6,8 @@ consistency:
     hash: c19a5af057dac82ed2a7fd72f8e3f666
     size: 1703
   ../.im.will.yml: &ref_1
-    hash: 88d0d3cb80deb793a65597cbdd8cb5a0
-    size: 4684
+    hash: 5baafbda56c26893973034105111e7d2
+    size: 4688
 module:
   wImageWriterSvg.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wimagewritersvg
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wimagewritersvg
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wimagewritersvg
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: c19a5af057dac82ed2a7fd72f8e3f666
         size: 1703
       ../.im.will.yml:
-        hash: 88d0d3cb80deb793a65597cbdd8cb5a0
-        size: 4684
+        hash: 5baafbda56c26893973034105111e7d2
+        size: 4688
